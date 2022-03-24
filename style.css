@@ -4,6 +4,7 @@
 }
 body {
   box-sizing: border-box;
+  padding: 0;
 }
 
 #carrito {
@@ -33,14 +34,19 @@ body {
 #logo i {
   font-size: 2.5em;
 }
-#menu {
-  padding-left: 10em;
-  padding-right: 10em;
+#banner {
+  background-image: url(imagenes/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-color: darkslategray;
+  background-position: bottom;
+
+
+
 }
 #menu{
-  content: "";
-  clear: both;
-  display: table;
+  text-align: center;
+  margin: 0 7em;
 }
 #menu ul {
   padding-top: 1em;
@@ -55,5 +61,36 @@ body {
   margin-right: 2.5em;
   margin-left: 2.5em;
   display: inline-block;
+  text-align: center;
+  vertical-align: text-top;
+}
+
+#free {
+  padding: 1em;
+  margin: 5em 35em;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+#free p {
+  margin-top: 9em;
+  margin-bottom: 2em;
+}
+#free span {
+  background-color: yellow;
+  color: black;
+  padding: 15px;
+}
+#sub-banner {
+  color: darkslategrey;
+  padding: 3em;
+  text-align: center;
+  background-image: url(imagenes/sub-banner.jpg);
+  background-size: cover;
+  background-position: 0 35em;
+}
+#direccion {
+  background-color: white;
   text-align: center;
 }
