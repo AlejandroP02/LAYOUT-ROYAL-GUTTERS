@@ -1,5 +1,4 @@
 * {
-  border: thin solid red;
   margin: 0;
 }
 body {
@@ -40,9 +39,11 @@ body {
   background-size: 100% 80%;
   background-color: darkslategray;
   background-position: bottom;
-
-
-
+}
+#banner::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 #menu{
   text-align: center;
