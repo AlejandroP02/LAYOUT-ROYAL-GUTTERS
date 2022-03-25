@@ -5,7 +5,9 @@ body {
   box-sizing: border-box;
   padding: 0;
 }
-
+menu {
+  padding-left: 0;
+}
 #carrito {
   padding-top: 7px;
   padding-bottom: 2px;
@@ -22,6 +24,9 @@ body {
   position: relative;
   padding-left: 10em;
   color: #edbf12;
+  background-color: darkslategray;
+  padding-bottom: 2.5em;
+  margin-bottom: -2em;
 }
 #logo div {
   position: relative;
@@ -36,9 +41,8 @@ body {
 #banner {
   background-image: url(imagenes/banner.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 80%;
-  background-color: darkslategray;
-  background-position: bottom;
+  background-position: center;
+  background-size: cover;
 }
 #banner::after {
   content: "";
@@ -46,6 +50,8 @@ body {
   display: table;
 }
 #menu{
+  position: relative;
+  z-index: 2;
   text-align: center;
   margin: 0 7em;
 }
@@ -74,6 +80,11 @@ body {
   background: rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
+#free::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 #free p {
   margin-top: 9em;
   margin-bottom: 2em;
@@ -89,9 +100,15 @@ body {
   text-align: center;
   background-image: url(imagenes/sub-banner.jpg);
   background-size: cover;
-  background-position: 0 35em;
+  background-repeat: no-repeat;
 }
 #direccion {
   background-color: white;
   text-align: center;
+}
+#direccion p{
+  margin: 1em 0;
+}
+#direccion h3 {
+  color: deepskyblue;
 }
