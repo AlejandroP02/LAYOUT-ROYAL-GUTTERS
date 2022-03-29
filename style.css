@@ -112,3 +112,14 @@ menu {
 #direccion h3 {
   color: deepskyblue;
 }
+
+.amarillo { color: #edbf12; }
+
+#cajas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #eaeaea;
+}
+.fa-check {
+  display: inline-block;
+}
