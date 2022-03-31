@@ -73,12 +73,37 @@ menu {
 }
 
 #free {
+  position: relative;
   padding: 1em;
   margin: 5em 35em;
   color: white;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   font-weight: bold;
+}
+.izquierda{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  font-size: 2em;
+  left: -15em;
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 6px;
+  padding-bottom: 36px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.derecha {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  font-size: 2em;
+  right: -15em;
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 6px;
+  padding-bottom: 36px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 #free::after {
   content: "";
@@ -89,10 +114,12 @@ menu {
   margin-top: 9em;
   margin-bottom: 2em;
 }
-#free span {
-  background-color: yellow;
+#free button {
+  background-color: #edbf12;
   color: black;
   padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #sub-banner {
   color: darkslategrey;
@@ -105,6 +132,7 @@ menu {
 #direccion {
   background-color: white;
   text-align: center;
+  padding: 2em;
 }
 #direccion p{
   margin: 1em 0;
@@ -119,7 +147,85 @@ menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #eaeaea;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 5em;
+  padding-right: 5em;
 }
-.fa-check {
+.check {
+  position: relative;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.fa-check{
+  position: absolute;
+  left: 0.8em;
+  top: 0.2em;
+  background-color: #3e4057;
+  color: #edbf12;
+  padding: 2px;
+}
+#centro {
+  padding-top: 1.5em;
+}
+.centro{
+  top: 1.7em;
+}
+#read-more{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5em;
+  padding-right: 7em;
+  padding-left: 7em;
+}
+#read-more div {
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+#read-more i {
+  font-size: 5em;
+  margin-bottom: 10px;
+}
+#read-more h2 {
+  margin-top: 5px;
+}
+#read-more p{
+  margin: 0.7em;
+}
+.more {
+  margin-top: 0 !important;
+  color: deepskyblue
+}
+#fondo-comentarios{background-color: #eeeeee;}
+#titulo-comentarios{
+  position: relative;
+  padding: 2em;
+}
+#linea {
+  position: absolute;
+  bottom: 1em;
+  height: 3px;
+  background: linear-gradient(to right, yellow 5%, grey 95%);
+}
+#flechas {
+  position: absolute;
+  font-size: 1.3em;
+  right: 4em;
+  top: 2em;
+  list-style-type: none;
+  padding-left: 0;
+
+}
+#flechas li {
   display: inline-block;
+  color: grey;
+  padding: 2px 8px;
+  border: 2px solid grey
+}
+#comentarios {
+  display: grid;
+  grid-template: 1fr 1fr;
+  padding-left: 5em;
+  background-color: #eeeeee;
 }
