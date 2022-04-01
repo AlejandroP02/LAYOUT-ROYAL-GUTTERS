@@ -201,12 +201,19 @@ menu {
 #titulo-comentarios{
   position: relative;
   padding: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 #linea {
-  position: absolute;
-  bottom: 1em;
+  margin-top: 1em;
   height: 3px;
-  background: linear-gradient(to right, yellow 5%, grey 95%);
+  background: grey;
+}
+#line2 {
+  width: 2em;
+  height: 3px;
+  background: yellow;
+  z-index: 3;
 }
 #flechas {
   position: absolute;
@@ -225,7 +232,70 @@ menu {
 }
 #comentarios {
   display: grid;
-  grid-template: 1fr 1fr;
-  padding-left: 5em;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 1.5em;
   background-color: #eeeeee;
+}
+.comentario {
+  margin: 0 1em;
+}
+.comentario-texto {
+  position: relative;
+  padding: 3em 4em;
+  background-color: white;
+  margin-bottom: 2em;
+}
+.comilla{
+  position: absolute;
+  left: 0;
+  top: 1.2em;
+  height: 1em;
+  width: 1em;
+  font-size: 2.5em;
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+}
+.triangulo{
+  position: absolute;
+  bottom: -1.6em;
+  left: 1.3em;
+  transform: rotate(450deg);
+  width: 0;
+  height: 0;
+  border-right: 18px solid transparent;
+  border-top: 18px solid transparent;
+  border-left: 18px solid white;
+  border-bottom: 18px solid white;
+}
+#imagenes {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+#contain{
+  margin: 1em 0;
+  overflow-x: auto;
+  white-space: nowrap
+}
+#contain img {
+  width: 45em;
+  height: 22.5em
+}
+#imagen-boton {
+  padding: 10px;
+  background-color: white;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+#footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1em 9em;
+  background-color: darkslategrey;
+  color: white;
 }
