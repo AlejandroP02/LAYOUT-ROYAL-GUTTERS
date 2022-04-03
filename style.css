@@ -345,4 +345,10 @@ menu {
   margin-left: -2em;
   border: 2px solid yellow;
   padding: 5px;
+  background: none;
+  margin-top: 1em;
+}
+#fecha {
+  background-color: #fac61a;
+  font-style: oblique;
 }
