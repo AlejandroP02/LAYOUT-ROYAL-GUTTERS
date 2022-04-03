@@ -9,9 +9,7 @@ menu {
   padding-left: 0;
   padding-right: 0;
 }
-a {
-  text-decoration: none;
-}
+
 #carrito {
   padding-top: 7px;
   padding-bottom: 2px;
@@ -84,6 +82,11 @@ a {
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   font-weight: bold;
+}
+#free::after{
+  content: "";
+  clear: both;
+  display: table;
 }
 .izquierda{
   position: absolute;
