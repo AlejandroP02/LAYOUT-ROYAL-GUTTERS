@@ -333,9 +333,11 @@ menu {
 }
 #hora {
   position: relative;
+  padding-left: 1em;
 }
 #hora i {
   position: absolute;
+  top: 0.5em;
   left: 0;
-  font-size: 200%;
+  font-size: 225%;
 }
