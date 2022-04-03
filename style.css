@@ -317,7 +317,14 @@ menu {
 #footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 1em 9em;
+  padding: 2em 9em;
   background-color: darkslategrey;
   color: white;
+}
+#footer h4 {
+  color: #e9eae2;
+  margin-bottom: 1em;
+}
+#footer p {
+ 
 }
