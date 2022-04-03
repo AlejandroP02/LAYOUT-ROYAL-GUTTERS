@@ -100,6 +100,16 @@ menu {
   padding-left: 15px;
   padding-right: 15px;
 }
+.izquierda::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.derecha::after{
+  content: "";
+  clear: both;
+  display: table;
+}
 .derecha {
   position: absolute;
   top: 50%;
