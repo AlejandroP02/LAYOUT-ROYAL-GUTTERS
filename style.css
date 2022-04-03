@@ -328,3 +328,14 @@ menu {
 #footer p {
  color: grey;
 }
+#separar {
+  margin-bottom: 1em;
+}
+#hora {
+  position: relative;
+}
+#hora i {
+  position: absolute;
+  left: 0;
+  font-size: 200%;
+}
