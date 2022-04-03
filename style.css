@@ -62,11 +62,7 @@ menu {
   text-align: center;
   margin: 0 7em;
 }
-#menu ul::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 #menu ul {
   padding-top: 1em;
   padding-bottom: 1em;
