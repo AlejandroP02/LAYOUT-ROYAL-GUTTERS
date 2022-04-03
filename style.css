@@ -341,3 +341,8 @@ menu {
   left: 0;
   font-size: 225%;
 }
+#hora button {
+  margin-left: -2em;
+  border: 2px solid yellow;
+  padding: 5px;
+}
