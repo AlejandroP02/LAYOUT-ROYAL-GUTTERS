@@ -77,7 +77,7 @@ menu {
 #free {
   position: relative;
   padding: 1em;
-  margin: 5em 35em;
+  margin: 5em 25%;
   color: white;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
@@ -93,7 +93,7 @@ menu {
   top: 50%;
   bottom: 50%;
   font-size: 2em;
-  left: -15em;
+  left: -40%;
   background: rgba(0, 0, 0, 0.5);
   padding-top: 6px;
   padding-bottom: 36px;
@@ -105,7 +105,7 @@ menu {
   top: 50%;
   bottom: 50%;
   font-size: 2em;
-  right: -15em;
+  right: -40%;
   background: rgba(0, 0, 0, 0.5);
   padding-top: 6px;
   padding-bottom: 36px;
