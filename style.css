@@ -350,6 +350,8 @@ menu {
   color: white;
 }
 #fecha {
+  padding: 0.5em;
+  font-size: 125%;
   background-color: #fac61a;
   font-variant-caps: all-petite-caps;
   text-align: center;
