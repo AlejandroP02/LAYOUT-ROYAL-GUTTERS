@@ -18,6 +18,11 @@ menu {
   padding-right: 4em;
   background-color: #2f2f2f;
 }
+#carrito::after{
+  content: "";
+  clear: both;
+  display: table;
+}
 #carrito i {
   color: #9b9c9e;
 }
