@@ -7,6 +7,10 @@ body {
 }
 menu {
   padding-left: 0;
+  padding-right: 0;
+}
+a {
+  text-decoration: none;
 }
 #carrito {
   padding-top: 7px;
