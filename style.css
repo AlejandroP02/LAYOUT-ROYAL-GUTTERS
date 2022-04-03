@@ -347,8 +347,10 @@ menu {
   padding: 5px;
   background: none;
   margin-top: 1em;
+  color: white;
 }
 #fecha {
   background-color: #fac61a;
-  font-style: oblique;
+  font-variant-caps: all-petite-caps;
+  text-align: center;
 }
