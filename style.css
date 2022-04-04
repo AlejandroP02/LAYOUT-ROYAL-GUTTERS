@@ -79,6 +79,7 @@ menu {
   text-align: center;
   vertical-align: text-top;
 }
+#menu a {text-decoration: none;color: black;}
 
 #free {
   position: relative;
@@ -356,4 +357,44 @@ menu {
   background-color: #fac61a;
   font-variant-caps: all-petite-caps;
   text-align: center;
+}
+
+/* css de gallery.html */
+
+#gris{
+  background-color: grey;
+}
+#titulo-gallery {
+  position: relative;
+  padding: 1em 23em;
+  color: white;
+  background-color: grey;
+}
+#titulo-gallery p{
+  position: absolute;
+  right: 23em;
+  top: 1em;
+}
+#titulo-gallery p > a {text-decoration: none; color: white;}
+#galleries{
+  margin: 1em 19em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid yellow;
+}
+#gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0em 21em;
+
+}
+#gallery div {
+  padding: 0em 1em;
+  padding-bottom: 1em !important;
+  border: thin solid black;
+}
+#gallery div > img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  height: 100%;
 }
