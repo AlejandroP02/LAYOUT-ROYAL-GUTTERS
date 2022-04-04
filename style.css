@@ -366,31 +366,40 @@ menu {
 }
 #titulo-gallery {
   position: relative;
-  padding: 1em 23em;
+  padding: 1em 17%;
   color: white;
   background-color: grey;
 }
 #titulo-gallery p{
   position: absolute;
-  right: 23em;
+  right: 17%;
   top: 1em;
 }
 #titulo-gallery p > a {text-decoration: none; color: white;}
 #galleries{
-  margin: 1em 19em;
+  margin: 1em 17%;
   padding-bottom: 1em;
   border-bottom: 2px solid yellow;
+}
+#galleries::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 #gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0em 21em;
-
+  padding: 0em 17%;
 }
 #gallery div {
   padding: 0em 1em;
   padding-bottom: 1em !important;
   border: thin solid black;
+}
+#gallery::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 #gallery div > img {
   max-width: 100%;
