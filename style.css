@@ -412,6 +412,41 @@ menu {
   grid-template-columns: 3fr 1fr;
   padding: 1em 15%;
 }
-#body-contact div {
-  border: 3px solid black;
+
+#formulario {
+  padding-top: 3em;
+  padding-left: 3%;
+  padding-right: 10%;
+}
+#formulario h2 {
+  margin-bottom: 1em;
+}
+#formulario form {
+  margin-top: 1em;
+}
+#nombre {
+
+  padding: 10px;
+  font-size: 1.5em;
+  width: 47%;
+  max-width: 100%
+}
+#correo {
+
+  padding: 10px;
+  font-size: 1.5em;
+  width: 47%;
+  max-width: 100%
+}
+#direccion1 {
+  padding: 10px;
+  font-size: 1.5em;
+  width: 100%;
+  max-width: 100%
+}
+#direccion2 {
+  padding: 10px;
+  font-size: 1.5em;
+  width: 30%;
+  max-width: 100%
 }
