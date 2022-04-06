@@ -391,16 +391,12 @@ menu {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0em 17%;
 }
-#gallery div {
+.fotos {
   padding: 0em 1em;
-  padding-bottom: 1em !important;
-  border: thin solid black;
+  padding-bottom: 2em;
+  margin-bottom: 2.5em;
 }
-#gallery::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 .fotos img {
   max-width: 100%;
   width: 100%;
@@ -408,11 +404,15 @@ menu {
   height: 100%;
 }
 
-.fotos div{
+.fotos p{
+  position: static;
+  margin-top: -5px;
   text-align: center;
   padding: 5px;
   background-color: darkslategray;
+  color: white;
 }
+
 #body-contact {
   display: grid;
   grid-template-columns: 3fr 1fr;
