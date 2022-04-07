@@ -523,7 +523,7 @@ menu {
   border-top: 1px dashed darkslategray;
   margin-bottom: 8em;
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   #gallery {
     display: grid;
     grid-template-columns: 1fr;
