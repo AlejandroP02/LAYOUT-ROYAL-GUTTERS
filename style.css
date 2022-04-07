@@ -502,9 +502,13 @@ menu {
 }
 #info {
   background-color: #f4f4f4;
-  height: 66%;
   padding: 2em 1em;
   font-weight: bold;
+}
+#info::after{
+  content: "";
+  clear: both;
+  display: table;
 }
 #phone {
   margin-bottom: 4em;
@@ -517,11 +521,44 @@ menu {
 #clock {
   padding-top: 1em;
   border-top: 1px dashed darkslategray;
+  margin-bottom: 8em;
 }
 @media (max-width: 1000px) {
   #gallery {
     display: grid;
     grid-template-columns: 1fr;
   }
-  
+  #cajas {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #centro {
+    padding-bottom: 1.5em;
+  }
+  #read-more {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #titulo-comentarios h1{
+    padding-right: 2em;
+  }
+  #comentarios {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .comentario {
+    margin-bottom: 2em;
+  }
+  #footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 1em !important;
+  }
+  #separar1 {
+    margin-bottom: 1em;
+  }
+  #body-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
