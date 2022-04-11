@@ -538,7 +538,7 @@ menu {
     grid-template-columns: 1fr;
   }
   #centro {
-    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
   }
   #read-more {
     display: grid;
@@ -568,6 +568,6 @@ menu {
   }
   .fa-check {
     font-size: 3em;
-    position: absolute; left: 0; top: 0.1em;
+    position: absolute; left: -0.5; top: 0.1em;
   }
 }
