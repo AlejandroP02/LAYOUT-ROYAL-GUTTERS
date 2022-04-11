@@ -568,6 +568,9 @@ menu {
   }
   .fa-check {
     font-size: 3em;
-    position: absolute; left: -0.5; top: 0.1em;
+    position: absolute; top: 0.1em;
+  }
+  .check{
+    padding-left: 1em;
   }
 }
