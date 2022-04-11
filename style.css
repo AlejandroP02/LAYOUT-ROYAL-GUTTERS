@@ -183,11 +183,16 @@ menu {
 }
 .fa-check{
   position: absolute;
-  left: 0.8em;
+  left: 0.6em;
   top: 0.2em;
   background-color: #3e4057;
   color: #edbf12;
-  padding: 2px;
+  padding: 2px 3px;
+}
+.fa-check::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 #centro {
   padding-top: 1.5em;
@@ -561,5 +566,5 @@ menu {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .fa-solid {margin-left: 1em;}
+
 }
