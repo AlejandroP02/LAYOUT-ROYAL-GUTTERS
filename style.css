@@ -567,7 +567,7 @@ menu {
     grid-template-columns: 1fr;
   }
   .fa-check {
-    font-size: 1em;
-    position: absolute; left: 0;
+    font-size: 2em;
+    position: absolute; left: 0; top: 0.2em;
   }
 }
